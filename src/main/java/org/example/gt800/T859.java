@@ -41,6 +41,7 @@ public class T859 {
         }
 
         // Проверка, что частоты символов в обеих строках равны
+
         for (char c : charFrequency1.keySet()) {
             if (!charFrequency2.containsKey(c) || !Objects.equals(charFrequency1.get(c), charFrequency2.get(c))) {
                 return false;
