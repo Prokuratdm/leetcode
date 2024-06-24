@@ -7,7 +7,6 @@ public class T925 {
     public boolean isLongPressedName(String name, String typed) {
         LinkedList<LetterStat> statsName = createStats(name);
         LinkedList<LetterStat> statsTyped = createStats(typed);
-
         if (statsName.size() != statsTyped.size()) {
             return false;
         }
